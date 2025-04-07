@@ -1,18 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using NetPractice;
 
 
 
 //1
 int age = 20;
-string name = "mariami";
+string name = "anri";
 for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine($"{i}: {name}");
 }
 
 //2
-Person person = new Person(15, "mariami");
+Person person = new Person(15, "anri");
 person.Introduction();
 
 //3
